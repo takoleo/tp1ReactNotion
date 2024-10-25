@@ -1,0 +1,22 @@
+.userBorder{
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: aqua;
+    margin-bottom: 5PX;
+    padding: 4px;
+}
+
+.user{
+
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: aqua;
+
+    padding: 5px;
+}
+
+.grid{
+    display: grid;
+    gap: 10px;
+    grid-template-columns:repeat(2, 1fr) ;
+}
